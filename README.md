@@ -23,5 +23,5 @@ We selected %90 jpeg quality quantization matrix on our test. As a result we too
 
 ![Alt Text](result.gif)
 
-#H3 Reference
+## Reference ##
 [1] Boussakta, Said, and Hamoud O. Alshibami. "Fast algorithm for the 3-D DCT-II." IEEE Transactions on Signal Processing 52.4 (2004): 992-1001.
