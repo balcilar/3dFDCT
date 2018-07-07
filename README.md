@@ -7,8 +7,8 @@
 ```
 Then the result will be something like that
 ```matlab
-Time consumpsion for 32x32x32 matrix DCT with ordinary alg :81.6705 sec
-Time consumpsion for 32x32x32 matrix DCT with fast alg :1.87874 sec
+Time consumption for 32x32x32 matrix DCT with ordinary alg :81.6705 sec
+Time consumption for 32x32x32 matrix DCT with fast alg :1.87874 sec
 difference between fast and ordinary ones output: 9.58882e-13
 ```
 As you can see fast method outperformed ordinary method on that test. Also the sum of absolute differences result of ordinary and fast method results has no meaningful differences as you can see it is 9.58882e-13.
