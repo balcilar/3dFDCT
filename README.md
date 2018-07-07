@@ -1,7 +1,7 @@
 
 # Fast Algorithm for the 3-D DCT
 
-2D Discrete Cosine Transform (2D-DCT) is well know and wide used algorithm for imgage compression. All logic behind jpeg compression is based on DCT. We can also implement DCT on 3D matrix such as videos. In that project, we reimplement some part of the paper which was on fast versions of 3D DCT and its inverse method named 3D IDCT. To show the accuracy of the code, we did test both standart and fast method of 3d DCT on random generated 32x32x32 matrix. To see that test please run following script;
+2D Discrete Cosine Transform (2D-DCT) is well know and wide used algorithm for imgage compression. All logic behind jpeg compression is based on DCT. We can also implement DCT on 3D matrix such as videos. In that project, we reimplemented some part of the paper which was on fast versions of 3D DCT and its inverse method named 3D IDCT [1]. To show the accuracy of the code, we did test both standart and fast method of 3d DCT on random generated 32x32x32 matrix. To see that test please run following script;
 ```matlab
 > main_test
 ```
@@ -17,9 +17,11 @@ We just did small example of that method on video compression demo. We read so c
 ```matlab
 > main_videocompression
 ```
-
- 
+We selected %90 jpeg quality quantization matrix on our test. As a result we took 10.1707 compression rate on our demo, which means compression data is less than %10 of the raw data. You can see original input at the left and decoding of compressed images on the right. Althoug there are some differences, compression rate is enough sufficient. 
 
 
 
 ![Alt Text](result.gif)
+
+#H3 Reference
+[1] Boussakta, Said, and Hamoud O. Alshibami. "Fast algorithm for the 3-D DCT-II." IEEE Transactions on Signal Processing 52.4 (2004): 992-1001.
